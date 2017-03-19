@@ -182,16 +182,10 @@
 <p>hexo：是一款基于NodeJS的博客框架，具有快速、简洁且高效的优点；使用Markdown解析文章，可以在几秒内快速生成静态文章博文</p>
 <p>补充NodeJS：目前速度最快的JavaScript引擎，和2014年出现的AngularJS不同，NodeJS是一款基于后端的语言，有数据库操作，快速、高效的优点，比起PHP来说开发效率更高</p>
 <p><b>说明：</b>你需要注册一个 github 账号,最好取一个有意义的名字,比如姓名全拼,昵称全拼,如果被占用,可以加上有意义的数字.<br>本文中假设用户名为Galinx，这里将不再讲述如何在githup上注册账号，相信你们都可以注册。</p>
-<p>系统：window7 64位</p>
-<p>使用软件：<br><font color="red"><b>Git</b></font>  [下载地址] <a href="https://git-scm.com/download/" target="_blank" rel="external">Git官网</a><br><font color="red"><b>node.js</b></font>  [下载地址] <a href="https://nodejs.org/en/download/" target="_blank" rel="external">Node.js官网</a></p>
-<h1 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h1><p><li>大部分按默认安装，一路点击”Next”</li><img src="../../../../img/hexo20150701001.png"></p>
-<p><li>这里选择对应的windows选项，如下图。之后一直默认到安装结束</li><li><img src="../../../../img/hexo20150701006.png"></li></p>
-<h1 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h1><p><li>Node安装更加简单，还是一路”Next”,最后等待安装完成即可 </li><img src="../../../../img/hexo20150701010.png"></p>
-<p><font color="red"><b>备注</b></font>：楼主的win7电脑安装的是msi,到最后一步一直rollback，安装不成功。之后下载的zip，这个解压就行了，不用安装。安装成功的同学可以忽略</p>
-<h1 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h1><p>新建一个名为你的用户名.github.io的仓库，比如说，如果你的github用户名是test，那么你就新建test.github.io的仓库（必须是你的用户名，其它名称无效），将来你的网站访问地址就是 <a href="http://test.github.io" target="_blank" rel="external">http://test.github.io</a> 了，是不是很方便？</p>
-<h1 id="验证软件正确安装"><a href="#验证软件正确安装" class="headerlink" title="验证软件正确安装"></a>验证软件正确安装</h1><p><li>同时按下Win键和R键（或者点击“开始菜单”-&gt;点击“运行”）,打开运行窗口,输入“cmd”,然后输入以下命令，结果与下图相同则说明安装正确，若不正确可以卸载软件重新安装</li><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git --version</div><div class="line">node -v</div><div class="line">npm -v</div></pre></td></tr></table></figure></p>
-<p><font color="red"><b>备注</b></font>：如果提示不是或外部命令。那就是系统的环境变量没有设置成功。</p>
-<h1 id="后续有待更新……"><a href="#后续有待更新……" class="headerlink" title="后续有待更新……"></a>后续有待更新……</h1>
+<p>系统：window7 64位<br>使用软件：<br/><font color='red'><b>Git</b></font>  [下载地址] <a href="https://git-scm.com/download/">Git官网</a><br/><font color='red'><b>node.js</b></font>  [下载地址] <a href="https://nodejs.org/en/download/">Node.js官网</a><br>
+        
+          <a class="article-more-a" href="/2017/03/19/first/#more">more >></a>
+        
       
 
       
@@ -260,16 +254,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+        <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a><br>
+        
+          <a class="article-more-a" href="/2017/03/18/hello-world/#more">more >></a>
+        
       
 
       
@@ -399,10 +389,6 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">php</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">githup</a>
               </li>
              
@@ -412,6 +398,10 @@
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">网站</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">php</a>
               </li>
             
             <div class="clearfix"></div>
